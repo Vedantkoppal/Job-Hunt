@@ -1,0 +1,8 @@
+<div id="job-description" class="border-bottom" style="margin-bottom:10px;padding-bottom:8px;">
+  <div id="job-title">{{job['title']}}</div>
+  <div id="location" class="fw-lighter"><b>Location : </b>{{job['location']}}</div>
+  {%if 'salary' in job%}
+  <div id="salary" class="fw-lighter"><b>Salary : </b>{{job['salary']}}</div>
+  {%endif%}
+  <button type="button" class="btn btn-primary">Apply</button>
+  </div>
